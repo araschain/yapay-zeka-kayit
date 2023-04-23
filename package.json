@@ -1,0 +1,27 @@
+{
+  "name": "yapay-zeka-kayit",
+  "version": "0.0.3",
+  "description": "Yapay zekalı kayıt sistemi.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --no-warnings index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^1.5.0",
+    "croxydb": "^0.0.7",
+    "discord-api-types": "^0.37.25",
+    "discord.js": "^14.9.0",
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "araschain",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "discordjs",
+    "js"
+  ]
+}
